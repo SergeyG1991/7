@@ -1,1 +1,23 @@
+mydict = {"porshe":911,"vaz":2108,"subaru": 1,"toyota": 2,"chevrolet": 3,"nissan": 9}
+mydict.update({"porshe":9, "nissan":911})
+mydict.pop("vaz")                                         #1 zadanie
+mydict["new_key"] = "my_value"
+dct = {"porshe":9, "subaru": 1, "toyota": 2, "chevrolet": 3, "nissan": 911, "new_key": "my_value"}
+print(dct)
+print(mydict)
+print(id(mydict))
+print(id(dct)) 
+
+
+student = {"name": "Emma", "class": 9, "marks": 75}    #2 zadanie     
+print(student["marks"]) 
+
+
+p = {"name": "Mike", "salary": 8000} #3 zadanie None
+print(p.get("age")) 
+
+
+sample = {"1":["a","b"], "2":["c","d"]}
+
+
 
